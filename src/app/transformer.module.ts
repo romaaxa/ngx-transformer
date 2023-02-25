@@ -1,11 +1,15 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
+import { AppComponent } from './transformer.component';
 import { CamelCasePipe } from './case/camel-case/camel-case.pipe';
 import { NgxTransformerOptions, NGX_TRANSFORMER_OPTIONS } from './transformer-options';
+import { SnakeCasePipe } from './case/snake-case/snake-case.pipe';
+import { KebabCasePipe } from './case/kebab-case/kebab-case.pipe';
 
 const ANGULAR_TRANSFORMER_PIPES = [
   CamelCasePipe,
+  SnakeCasePipe,
+  KebabCasePipe,
 ];
 
 @NgModule({
