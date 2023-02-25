@@ -50,10 +50,17 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
   },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "tslint --project tsconfig.lint.json -c tslint.json --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/romaaxa/ngx-transformer/issues"
   },
   "homepage": "https://github.com/romaaxa/ngx-transformer#readme",
   "main": "karma.conf.js",
-  "license": "ISC"
+  "license": "MIT"
 }
