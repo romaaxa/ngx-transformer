@@ -2,7 +2,10 @@
   "name": "ngx-transformer",
   "version": "0.0.1",
   "description": "Open-source library with angular transform pipes",
-  "keywords": ["angular", "pipes"],
+  "keywords": [
+    "angular",
+    "pipes"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,9 +20,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/romaaxa/ngx-transformer"
+    "url": "git+https://github.com/romaaxa/ngx-transformer.git"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.0.0",
     "@angular/common": "^14.0.0",
@@ -45,5 +48,11 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/romaaxa/ngx-transformer/issues"
+  },
+  "homepage": "https://github.com/romaaxa/ngx-transformer#readme",
+  "main": "karma.conf.js",
+  "license": "ISC"
 }
