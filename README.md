@@ -1,4 +1,4 @@
-# ngx-transform
+# ngx-transformer
 
 Transform pipes for Angular
 
