@@ -5,11 +5,13 @@ import { CamelCasePipe } from './case/camel-case/camel-case.pipe';
 import { NgxTransformerOptions, NGX_TRANSFORMER_OPTIONS } from './transformer-options';
 import { SnakeCasePipe } from './case/snake-case/snake-case.pipe';
 import { KebabCasePipe } from './case/kebab-case/kebab-case.pipe';
+import { FlatCasePipe } from './case/flat-case/flat-case.pipe';
 
 const ANGULAR_TRANSFORMER_PIPES = [
   CamelCasePipe,
   SnakeCasePipe,
   KebabCasePipe,
+  FlatCasePipe,
 ];
 
 @NgModule({
