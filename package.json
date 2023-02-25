@@ -1,6 +1,8 @@
 {
   "name": "ngx-transformer",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Open-source library with angular transform pipes",
+  "keywords": ["angular", "pipes"],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +12,12 @@
   },
   "author": {
     "name": "Anton Romashko",
-    "email": "romashanton@gmail.com"
+    "email": "romashanton@gmail.com",
+    "url": "https://github.com/romaaxa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romaaxa/ngx-transformer"
   },
   "private": true,
   "dependencies": {
