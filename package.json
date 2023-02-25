@@ -8,6 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "author": {
+    "name": "Anton Romashko",
+    "email": "romashanton@gmail.com"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.0.0",

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'ngx-transformer',
   templateUrl: './transformer.component.html',
   styleUrls: ['./transformer.component.scss']
 })
