@@ -12,5 +12,5 @@ describe('PascalCasePipe', () => {
     const value = 'pascal Case test';
     const result = pipe.transform(value);
     expect(result).toEqual('PascalCaseTest');
-  })
+  });
 });

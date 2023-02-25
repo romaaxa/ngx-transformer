@@ -7,7 +7,7 @@ export class CamelCasePipe implements PipeTransform {
       if (typeof value !== 'string') {
         throw new Error('Value is not a string.');
       }
-      return +match === 0 ? "" : index === 0 ? match.toLowerCase() : match.toUpperCase();
+      return +match === 0 ? '' : index === 0 ? match.toLowerCase() : match.toUpperCase();
     });
   }
 }
