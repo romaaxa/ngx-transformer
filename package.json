@@ -1,6 +1,6 @@
 {
   "name": "ngx-transformer",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Open-source library with angular transform pipes",
   "keywords": [
     "angular",
