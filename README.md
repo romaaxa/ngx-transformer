@@ -1,4 +1,4 @@
-# ngx-moment
+# ngx-transform
 
 Transform pipes for Angular
 
