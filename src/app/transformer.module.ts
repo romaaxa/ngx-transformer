@@ -7,8 +7,10 @@ import { SnakeCasePipe } from './case/snake-case/snake-case.pipe';
 import { KebabCasePipe } from './case/kebab-case/kebab-case.pipe';
 import { FlatCasePipe } from './case/flat-case/flat-case.pipe';
 import { ScreamCasePipe } from './case/scream-case/scream-case.pipe';
+import {PascalCasePipe} from "./case/pascal-case/pascal-case.pipe";
 
 const ANGULAR_TRANSFORMER_PIPES = [
+  PascalCasePipe,
   CamelCasePipe,
   SnakeCasePipe,
   KebabCasePipe,

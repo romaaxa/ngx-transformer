@@ -1,3 +1,4 @@
+export { PascalCasePipe } from './case/pascal-case/pascal-case.pipe';
 export { CamelCasePipe } from './case/camel-case/camel-case.pipe';
 export { SnakeCasePipe } from './case/snake-case/snake-case.pipe';
 export { KebabCasePipe } from './case/kebab-case/kebab-case.pipe';
