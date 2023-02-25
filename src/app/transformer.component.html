@@ -1,8 +1,32 @@
-<div class="ngx-playground">
-  <span>{{ "pascal case - " }}{{"pascal case" | pascalCase }}</span>
-  <span>{{ "camel case - " }}{{"camel case" | camelCase }}</span>
-  <span>{{ "snake case - " }}{{"snake case" | snakeCase }}</span>
-  <span>{{ "kebab case - " }}{{"kebab case" | kebabCase }}</span>
-  <span>{{ "flat case - " }}{{"flat case" | flatCase }}</span>
-  <span>{{ "scream case - " }}{{"scream case" | screamCase }}</span>
-</div>
+<table class="ngx-playground-table">
+  <tr>
+    <th>Input</th>
+    <th>Pipe</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>Camel case</td>
+    <td>camelCase</td>
+    <td>{{ "Camel case" | camelCase }}</td>
+  </tr>
+  <tr>
+    <td>Snake case</td>
+    <td>snakeCase</td>
+    <td>{{ "Snake case" | snakeCase }}</td>
+  </tr>
+  <tr>
+    <td>Kebab case</td>
+    <td>kebabCase</td>
+    <td>{{ "Kebab case" | kebabCase }}</td>
+  </tr>
+  <tr>
+    <td>Flat case</td>
+    <td>flatCase</td>
+    <td>{{ "Flat case" | flatCase }}</td>
+  </tr>
+  <tr>
+    <td>Pascal case</td>
+    <td>pascalCase</td>
+    <td>{{ "Pascal case" | pascalCase }}</td>
+  </tr>
+</table>

@@ -19,10 +19,13 @@ const ANGULAR_TRANSFORMER_PIPES = [
 ];
 
 @NgModule({
-  declarations: [...ANGULAR_TRANSFORMER_PIPES, AppComponent],
+  declarations: [
+    ...ANGULAR_TRANSFORMER_PIPES,
+     AppComponent // development only, do not commit
+    ],
   imports: [BrowserModule],
   exports: ANGULAR_TRANSFORMER_PIPES,
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] // development only, do not commit
 })
 export class TransformerModule {
   static forRoot(options?: NgxTransformerOptions): ModuleWithProviders<TransformerModule> {
