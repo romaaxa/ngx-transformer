@@ -1,6 +1,6 @@
 {
   "name": "ngx-transformer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Open-source library with angular transform pipes",
   "keywords": [
     "angular",
@@ -18,6 +18,7 @@
     "email": "romashanton@gmail.com",
     "url": "https://github.com/romaaxa"
   },
+  "contributors": ["https://github.com/ViTKuhaRVS"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/romaaxa/ngx-transformer.git"
