@@ -1,5 +1,4 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { STRING_REPLACE_SPLIT } from 'src/app/constants/regulars';
 
 @Pipe({ name: 'screamCase' })
 export class ScreamCasePipe implements PipeTransform {
@@ -7,6 +6,7 @@ export class ScreamCasePipe implements PipeTransform {
     if (value && typeof value !== 'string') {
       throw new Error('Value is not a string.');
     }
-    return value && value.match(STRING_REPLACE_SPLIT).map(char => char.toUpperCase()).join('_');
+    return value && value.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+    .map(char => char.toUpperCase()).join('_');
   }
 }
