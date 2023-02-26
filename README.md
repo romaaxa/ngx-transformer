@@ -6,6 +6,10 @@ Transform pipes for Angular
 [![npm License](https://img.shields.io/npm/l/ngx-transformer.svg?style=flat-square)](https://github.com/romaaxa/ngx-transformer/blob/master/LICENSE)
 [![Monthly download](https://img.shields.io/npm/dm/ngx-transformer.svg?style=flat-square)](https://www.npmjs.com/package/ngx-transformer)
 
+# Travis Build Status
+
+Master [![Build Status](https://travis-ci.org/BenjaminVanRyseghem/numbro.svg?branch=master)](https://travis-ci.org/BenjaminVanRyseghem/numbro)
+
 # Contributing
 
 See the `CONTRIBUTING.md` and `DEVELOPMENT.md` files for contribution information.
