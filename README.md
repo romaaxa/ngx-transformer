@@ -21,4 +21,5 @@ See the `CONTRIBUTING.md` and `DEVELOPMENT.md` files for contribution informatio
 # Acknowledgements
 
 `ngx-transformer` is inpired by [ngx-moment](https://github.com/urish/ngx-moment) project
+
 [Numbro](https://github.com/BenjaminVanRyseghem/numbro) library is used for number formatting pipes. See `LICENSE-numbro`
