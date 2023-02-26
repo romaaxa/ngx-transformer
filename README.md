@@ -8,7 +8,7 @@ Transform pipes for Angular
 
 # Travis Build Status
 
-Master [![Build Status](https://travis-ci.org/BenjaminVanRyseghem/numbro.svg?branch=master)](https://travis-ci.org/BenjaminVanRyseghem/numbro)
+Master [![Build Status](https://travis-ci.org/romaaxa/ngx-transformer.svg?branch=master)](https://travis-ci.org/romaaxa/ngx-transformer)
 
 # Contributing
 
