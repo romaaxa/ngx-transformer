@@ -8,8 +8,7 @@ import { Negative, Output } from '../models';
 export class NumbroFormatPipe implements PipeTransform {
   
   /**
-   * Numbers can be formatted to look like currency, percentages,
-   *                times, or even plain old numbers with decimal places, thousands, and abbreviations.
+   * Main numbro format pipe with all available configurations
    * @param value would be converted to string
    * @link https://numbrojs.com/format.html#numbers
    */
