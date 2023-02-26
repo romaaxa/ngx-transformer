@@ -16,7 +16,7 @@ See the `CONTRIBUTING.md` and `DEVELOPMENT.md` files for contribution informatio
 
 # Overview
 
-![image](https://user-images.githubusercontent.com/37483697/221354753-1510c356-2414-48ee-9b31-31fcc4f23b59.png)
+![image](https://user-images.githubusercontent.com/37483697/221432762-9af580b5-5fa3-4bfd-b3ed-e21cc9327a0b.png)
 
 # Acknowledgements
 
