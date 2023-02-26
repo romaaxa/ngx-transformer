@@ -4,7 +4,10 @@
   "description": "Open-source library with angular transform pipes",
   "keywords": [
     "angular",
-    "pipes"
+    "angular2",
+    "pipes",
+    "ngx",
+    "numbro"
   ],
   "scripts": {
     "build": "ng build",
@@ -19,14 +22,14 @@
     "email": "romashanton@gmail.com",
     "url": "https://github.com/romaaxa"
   },
-  "contributors": [
-    "https://github.com/ViTKuhaRVS"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/romaaxa/ngx-transformer.git"
   },
   "private": false,
+  "dependencies": {
+    "numbro": "^2.3.6"
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.1.1",
     "@angular/cli": "^13.1.1",
@@ -41,7 +44,6 @@
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.13",
     "core-js": "^3.19.3",
-    "husky": "^7.0.0",
     "jest": "^27.4.5",
     "jest-preset-angular": "^11.0.1",
     "lint-staged": "^12.1.2",

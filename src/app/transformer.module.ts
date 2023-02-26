@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './transformer.component';
+import { TransformerComponent } from './transformer.component';
 import { CamelCasePipe } from './case/camel-case/camel-case.pipe';
 import { NgxTransformerOptions, NGX_TRANSFORMER_OPTIONS } from './transformer-options';
 import { SnakeCasePipe } from './case/snake-case/snake-case.pipe';
@@ -8,6 +8,7 @@ import { KebabCasePipe } from './case/kebab-case/kebab-case.pipe';
 import { FlatCasePipe } from './case/flat-case/flat-case.pipe';
 import { ScreamCasePipe } from './case/scream-case/scream-case.pipe';
 import {PascalCasePipe} from './case/pascal-case/pascal-case.pipe';
+import { NumbroFormatPipe } from './numbro/numbro-format/numbro-format.pipe';
 
 const ANGULAR_TRANSFORMER_PIPES = [
   PascalCasePipe,
@@ -16,16 +17,17 @@ const ANGULAR_TRANSFORMER_PIPES = [
   KebabCasePipe,
   FlatCasePipe,
   ScreamCasePipe,
+  NumbroFormatPipe,
 ];
 
 @NgModule({
   declarations: [
     ...ANGULAR_TRANSFORMER_PIPES,
-     AppComponent // development only, do not commit
+    TransformerComponent // development only, do not commit
     ],
   imports: [BrowserModule],
   exports: ANGULAR_TRANSFORMER_PIPES,
-  bootstrap: [AppComponent] // development only, do not commit
+  bootstrap: [TransformerComponent] // development only, do not commit
 })
 export class TransformerModule {
   static forRoot(options?: NgxTransformerOptions): ModuleWithProviders<TransformerModule> {

@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './transformer.component.html',
   styleUrls: ['./transformer.component.scss']
 })
-export class AppComponent {
+export class TransformerComponent {
 }
