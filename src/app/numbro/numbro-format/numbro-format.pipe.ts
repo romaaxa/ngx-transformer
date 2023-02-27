@@ -6,7 +6,6 @@ import { Negative, Output } from '../models';
   name: 'numbroFormat'
 })
 export class NumbroFormatPipe implements PipeTransform {
-  
   /**
    * Main numbro format pipe with all available configurations
    * @param value would be converted to string
