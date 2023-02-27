@@ -5,7 +5,6 @@ import numbro from 'numbro';
   name: 'numbroFormatNumber'
 })
 export class NumbroFormatNumberPipe implements PipeTransform {
-  
   /**
    * Main numbro format pipe with all available configurations
    * @param value would be converted to string

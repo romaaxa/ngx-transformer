@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'flatCase' })
 export class FlatCasePipe implements PipeTransform {
-  transform(value?: string): string {
+  transform(value: string): string {
     if (typeof value !== 'string') {
       throw new Error('Value is not a string.');
     }
